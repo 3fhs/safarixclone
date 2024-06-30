@@ -1,0 +1,15 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating i {
+  color: goldenrod;
+}
+.rating .rating-text {
+  margin: 0 5px;
+  font-weight: 500;
+}
+.rating .rating-review {
+  font-size: 14px;
+  color: #777;
+}

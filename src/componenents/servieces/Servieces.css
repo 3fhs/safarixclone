@@ -1,0 +1,33 @@
+.serviecs {
+  width: 100%;
+  padding: 63px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.serv-link {
+  border-radius: 60px;
+  border: 2px solid #777;
+  padding: 20px;
+}
+.serv-link i {
+  margin-right: 10px;
+}
+.serv-link .bi-card-image {
+  color: gray;
+}
+.serv-link .bi-people-fill {
+  color: rgb(52, 5, 96);
+}
+.serv-link .bi-buildings {
+  color: var(--orange-color);
+}
+.serv-link .bi-globe {
+  color: #10000e;
+}
+.serv-link span {
+}

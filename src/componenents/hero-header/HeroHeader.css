@@ -1,0 +1,70 @@
+.hero-header {
+  background-image: url(../../images/dubaiiii.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh - 100px);
+  padding: 30px;
+}
+.search-box {
+  width: 100%;
+  background-color: white;
+  border-radius: 60px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.input-search {
+  width: 95%;
+  height: 100%;
+}
+.input-search i {
+  font-size: 21px;
+}
+.input-search input {
+  width: 90%;
+  height: 100%;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 21px;
+}
+.btn-search {
+  background-color: #7070ff;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 12px 21px;
+  border-radius: 60px;
+}
+.hero-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 75vh;
+}
+.hero-text h1 {
+  font-size: 40px;
+}
+.hero-text h3 {
+  font-size: 70px;
+}
+@media (max-width: 767px) {
+  .search-box {
+    padding: 0 10px;
+  }
+  .btn-search {
+    padding: 10px;
+  }
+  .hero-text {
+    height: 65vh;
+  }
+}

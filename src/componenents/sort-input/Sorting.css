@@ -1,0 +1,29 @@
+.sorting {
+  margin: 20px 0;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.available-tours {
+  font-size: 21px;
+  font-weight: 500;
+  color: gray;
+  text-transform: capitalize;
+}
+.sorting select {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .sorting {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

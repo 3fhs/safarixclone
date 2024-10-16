@@ -18,6 +18,10 @@
 
 .footer-item-title {
     margin-bottom: 21px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #9994;
+    letter-spacing: 1px;
 }
 
 .footer-item-link {
@@ -25,6 +29,7 @@
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .footer-item-link:hover{
@@ -53,6 +58,7 @@
 .footer-icons .icon i {
     color: #1a2b49;
     font-size: 32px;
+    display: flex;
 }
 
 /* Select Box */

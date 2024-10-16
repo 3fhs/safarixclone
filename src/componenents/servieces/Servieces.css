@@ -1,6 +1,6 @@
 .serviecs {
   width: 100%;
-  padding: 63px 30px;
+  padding: 20px 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -8,26 +8,54 @@
   font-weight: bold;
   flex-wrap: wrap;
   gap: 40px;
+  border-top: 2px solid var(--dark-black);
+  border-bottom: 2px solid #9994;
 }
 .serv-link {
   border-radius: 60px;
-  border: 2px solid #777;
   padding: 20px;
-}
-.serv-link i {
-  margin-right: 10px;
-}
-.serv-link .bi-card-image {
-  color: gray;
-}
-.serv-link .bi-people-fill {
-  color: rgb(52, 5, 96);
-}
-.serv-link .bi-buildings {
-  color: var(--orange-color);
-}
-.serv-link .bi-globe {
-  color: #10000e;
+  background-color: #edd9;
+  box-shadow: inset 0 0 5px 1px var(--light-black);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+  min-height: 80px;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black;
+  cursor: pointer;
 }
 .serv-link span {
+  position: absolute;
+  background-color: #9999;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.history {
+  background-image: url("../../images/ابوالهولوالاهرامات.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.medical {
+  background-image: url("../../images/seaha-3elagea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.peach {
+  background-image: url("../../images/siaha-shateqea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.deny {
+  background-image: url("../../images/seaha-denea.jpg");
+  background-size: cover;
+  background-position: center;
 }

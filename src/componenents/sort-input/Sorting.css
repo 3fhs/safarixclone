@@ -7,18 +7,31 @@
 }
 .available-tours {
   font-size: 21px;
-  font-weight: 500;
-  color: gray;
+  font-weight: bold;
+  color: var(--click-color);
   text-transform: capitalize;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #9994;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.available-tours .bi-info-circle {
+    color: var(--click-color);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
 }
 .sorting select {
   outline: none;
-  border: none;
+  border: 2px solid var(--light-black);
   font-size: 20px;
   font-weight: 700;
   padding: 10px;
   border-radius: 8px;
   cursor: pointer;
+  background: #9994;
+  text-transform: capitalize;
 }
 @media (max-width: 767px) {
   .sorting {

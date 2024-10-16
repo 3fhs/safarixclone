@@ -13,10 +13,13 @@
   border-radius: 8px;
   transition: 0.3s;
   margin-bottom: 10px;
+  box-shadow: 0 0 2px 4px #9994;
+  transition: 0.3s;
+  overflow: hidden;
 }
 .item-tour:hover {
-  background-color: snow;
-  box-shadow: 0 0 4px 6px #9994;
+  background-color: #fff;
+  box-shadow: 0 0 1px 2px #999;
 }
 .item-tour img {
   width: 100%;
@@ -26,18 +29,23 @@
   border-top-right-radius: 8px;
 }
 .item-tour-img {
-  position: relative;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .item-tour-text-img {
   position: absolute;
   z-index: 2;
   left: 10px;
-  bottom: -11px;
-  background-color: blanchedalmond;
+  bottom: -20px;
+  background-color: #ffebcd;
   font-size: 18px;
-  font-weight: 500;
   padding: 5px;
   border-radius: 6px;
+  min-width: 100px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 .body-item {
   background-color: #fff;
@@ -62,7 +70,7 @@
 }
 .item-price strong {
   color: var(--orange-color);
-  padding-right: 5px;
+  margin-left: 10px;
 }
 .item-link {
   outline: none;

@@ -2,25 +2,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px 0;
+  margin: 30px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #9994;
 }
 .page {
   font-size: 20px;
+  font-size: 20px;
   font-weight: bold;
   padding: 10px;
-  border: 1px solid #999;
+  border: 1px solid var(--main-black);
   cursor: pointer;
   height: 45px;
+  display: flex;
+  align-items: center;
+  color: var(--dark-black);
 }
 .btn-pre {
-  border-radius: 6px 0 0 6px;
-  height: 45px;
-}
-.btn-next {
   border-radius: 0 6px 6px 0;
   height: 45px;
 }
+.btn-next {
+  border-radius: 6px 0 0 6px;
+  height: 45px;
+}
 .active {
-  background-color: #6495ed;
+  background-color: var(--click-color);
   color: #fff;
 }
